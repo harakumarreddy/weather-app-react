@@ -1,0 +1,126 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* App background */
+.app {
+    min-height: 100vh;
+    background: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+}
+.app {
+    min-height: 100vh;
+    background: #f1f5f9;
+    color: #020617;
+}
+
+.app.dark {
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+
+/* Container */
+.weather-container {
+    width: 340px;
+    padding: 25px;
+    background: #020617;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(56, 189, 248, 0.25);
+    text-align: center;
+}
+
+/* Title */
+.title {
+    margin: 0 0 15px;
+    font-size: 26px;
+    color: #38bdf8;
+}
+
+/* Search */
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #0f172a;
+    color: #fff;
+}
+
+.search-box button {
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #38bdf8;
+    color: #020617;
+    font-weight: bold;
+}
+
+/* Card */
+.weather-card {
+    margin-top: 15px;
+}
+
+.city {
+    margin: 0;
+    font-size: 22px;
+    color: white;
+}
+
+.temp {
+    font-size: 48px;
+    margin: 10px 0;
+    color: #38bdf8;
+}
+
+.desc {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    color: white;
+}
+
+/* States */
+.loading {
+    color: #38bdf8;
+}
+
+.error {
+    color: #f87171;
+}
+
+/* Theme toggle */
+.theme-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: #020617;
+    color: #38bdf8;
+}
