@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from "react";
-import "./styles/Weather.css";
+import "./Weather.css";
 
 function Weather() {
 
