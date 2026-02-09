@@ -89,8 +89,8 @@ function Weather() {
                     </p>
 
                     <div className="info">
-                        <span>💧 {weather.main.humidity}%</span>
-                        <span>💨 {weather.wind.speed} m/s</span>
+                        <span>💧 Humidity: {weather.main.humidity}%</span>
+                        <span>💨Wind: {weather.wind.speed} m/s</span>
                     </div>
                 </div>
             )}
